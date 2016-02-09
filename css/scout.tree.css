@@ -1,0 +1,87 @@
+body * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+#tree {
+    width: 250px;
+    border: 1px solid #999;
+    margin: 10px;
+}
+
+    #tree .menu, .head {
+        padding-left: 5px;
+        height: 28px;
+        line-height: 28px;
+        cursor: pointer;
+        -webkit-user-select: none;
+    }
+
+        #tree .menu:hover {
+            background-color: #999;
+        }
+
+            #tree .menu:hover * {
+                color: white;
+            }
+
+    #tree .mark {
+        margin-right: 20px;
+        float: right;
+    }
+
+    #tree .submenu {
+        display: inline;
+    }
+
+        #tree .submenu span {
+            display: inline-block;
+        }
+
+.selected {
+    background-color: #999;
+}
+
+    .selected * {
+        color: white;
+    }
+
+.input {
+    width: 200px;
+    line-height: 28px;
+    margin: 10px;
+    padding: 0 5px;
+    border: 1px solid #999;
+}
+
+    .input:hover, .input:focus {
+        border-color: #0099ff;
+    }
+
+.common {
+    height: 28px;
+    outline: none;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 0 15px;
+    background-color: white;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.btn-enter {
+    border-color: #0099ff;
+}
+
+.btn-click {
+    background-color: #999;
+    color: white;
+    border-color: #999;
+}
+
+.block {
+    display: block;
+}
